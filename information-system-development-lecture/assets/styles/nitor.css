@@ -1,76 +1,61 @@
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Reckless';
   font-style: normal;
   font-weight: 200;
-  src: local('Lato Regular'), local('Lato-Light'), url('../fonts/Lato-Light.ttf') format('truetype');
+  src: local('Reckless Regular'), local('Reckless-Regular'), url('../fonts/RecklessNeue-Regular.otf') format('opentype');
 }
+
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url('../fonts/Lato-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
+  font-family: 'Reckless';
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url('../fonts/Lato-Bold.ttf') format('truetype');
+  src: local('Reckless Bold'), local('Reckless-Bold'), url('../fonts/RecklessNeue-Bold.otf') format('opentype');
 }
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 900;
-  src: local('Lato Black'), local('Lato-Black'), url('../fonts/Lato-Black.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
+  font-family: 'Reckless';
   font-style: italic;
   font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url('https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf') format('truetype');
+  src: local('Reckless Italic'), local('Reckless-Italic'), url('../fonts/RecklessNeue-RegularItalic.otf') format('opentype');
 }
 @font-face {
   font-family: 'Ubuntu Mono';
   font-style: normal;
   font-weight: 400;
-  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url('https://fonts.gstatic.com/s/ubuntumono/v6/ViZhet7Ak-LRXZMXzuAfkZ0EAVxt0G0biEntp43Qt6E.ttf') format('truetype');
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url('https://fonts.gstatic.com/s/ubuntumono/v6/ViZhet7Ak-LRXZMXzuAfkZ0EAVxt0G0biEntp43Qt6E.ttf') format('opentype');
 }
 @font-face {
   font-family: 'Ubuntu Mono';
   font-style: normal;
   font-weight: 700;
-  src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'), url('https://fonts.gstatic.com/s/ubuntumono/v6/ceqTZGKHipo8pJj4molytp_TkvowlIOtbR7ePgFOpF4.ttf') format('truetype');
+  src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'), url('https://fonts.gstatic.com/s/ubuntumono/v6/ceqTZGKHipo8pJj4molytp_TkvowlIOtbR7ePgFOpF4.ttf') format('opentype');
 }
 @font-face {
   font-family: 'Ubuntu Mono';
   font-style: italic;
   font-weight: 400;
-  src: local('Ubuntu Mono Italic'), local('UbuntuMono-Italic'), url('https://fonts.gstatic.com/s/ubuntumono/v6/KAKuHXAHZOeECOWAHsRKA-LrC4Du4e_yfTJ8Ol60xk0.ttf') format('truetype');
+  src: local('Ubuntu Mono Italic'), local('UbuntuMono-Italic'), url('https://fonts.gstatic.com/s/ubuntumono/v6/KAKuHXAHZOeECOWAHsRKA-LrC4Du4e_yfTJ8Ol60xk0.ttf') format('opentype');
 }
 @font-face {
-  font-family: 'IndustryInc';
-  src: url('../fonts/IndustryInc.otf');
-}
-@font-face {
-  font-family: 'Heuristica';
+  font-family: 'Roobert';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Heuristica-Regular.otf')
+  src: url('../fonts/Roobert-Regular.otf')
 }
 @font-face {
-  font-family: 'Heuristica';
+  font-family: 'Roobert';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/Heuristica-Bold.otf')
+  src: url('../fonts/Roobert-Bold.otf')
 }
 @font-face {
-  font-family: 'Heuristica';
+  font-family: 'Roobert';
   font-style: italic;
   font-weight: 400;
-  src: url('../fonts/Heuristica-Italic.otf')
+  src: url('../fonts/Roobert-Italic.otf')
 }
 
 body {
-  font-family: 'Heuristica', serif;
+  font-family: 'Roobert', serif;
 }
 
 .remark-fading {
@@ -108,7 +93,7 @@ body {
   margin: 0.1em 0;
 }
 .remark-slide-content h2, h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Reckless', sans-serif;
   font-size: 1.25em;
   color: #777;
 }
@@ -123,7 +108,7 @@ body {
   font-family: 'Ubuntu Mono';
 }
 .remark-slide-number {
-  font-family: 'Lato';
+  font-family: 'Reckless';
   font-size: 0.4em;
   color: #fff;
   width: calc(100% - 40px);
@@ -186,7 +171,7 @@ body {
   font-size: 2.2em;
 }
 .title.remark-slide-content h2 {
-  font-family: 'Lato';
+  font-family: 'Reckless';
   font-size: 0.9em;
   text-transform: uppercase;
 }
