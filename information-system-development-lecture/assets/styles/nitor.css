@@ -56,6 +56,7 @@
 
 body {
   font-family: 'Roobert', serif;
+  background-color: #26273A;
 }
 
 .remark-fading {
@@ -69,19 +70,21 @@ body {
 .remark-slide-scaler {
 }
 .remark-slide-content {
-  color: #777;
+  color: #ADA9A1;
 }
 .remark-slide-container:not(:first-of-type) .remark-slide {
   width: calc(100% - 40px);
   margin-left: 20px;
-  box-shadow: 0 0 10px #777;
+  box-shadow: 0 0 10px #ADA9A1;
 }
+
 .remark-slide-content h1 {
-  font-family: 'IndustryInc', sans-serif;
+  font-family: 'Roobert', sans-serif;
   font-weight: normal;
   font-size: 1.8em;
-  color: #00a4e4
+  color: #6DC4E2;
 }
+
 .remark-slide-content h1 {
   margin: 0;
   margin-bottom: 0.5em;
@@ -95,11 +98,11 @@ body {
 .remark-slide-content h2, h3 {
   font-family: 'Reckless', sans-serif;
   font-size: 1.25em;
-  color: #777;
+  color: #ADA9A1;
 }
 .remark-slide-content h3 {
   font-size: 1em;
-  color: #777;
+  color: #ADA9A1;
 }
 .remark-slide-content {
   font-size: 30px;
@@ -151,9 +154,8 @@ body {
   height: 25px;
 }
 .title {
-  background-image: url('../images/nitor_title_slide.jpg');
   background-size: cover;
-  background-color: #111;
+  background-color: #26273A;
   color: #fff;
 }
 .title p {
@@ -221,18 +223,18 @@ h2.number {
   margin-top: 2em;
   width: 100%;
   text-align: center;
-  font-family: 'IndustryInc';
+  font-family: 'Reckless';
   font-size: 2.5em;
-  color: #111;
+  color: #26273A;
 }
 div.number {
-  font-family: 'IndustryInc';
+  font-family: 'Roobert';
   font-size: 1.5em;
-  color: #777;
+  color: #ADA9A1;
 }
 
 a:visited {
-  color: blue;
+  color: #6056EB;
 }
 
 /* Background images */
@@ -311,6 +313,12 @@ a:visited {
 
 .capacity {
   background-image: url('../images/capacity.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+.coordination {
+  background-image: url('../images/traffic.png');
   background-size: contain;
   background-position: center;
 }
