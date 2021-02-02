@@ -39,13 +39,25 @@
   font-family: 'Roobert';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Roobert-Regular.otf')
+  src: local('Roobert'), url('../fonts/Roobert-Regular.otf'), format('opentype')
 }
 @font-face {
   font-family: 'Roobert';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/Roobert-Bold.otf')
+  src: local('Roobert Bold'), url('../fonts/Roobert-Bold.otf'), format('opentype')
+}
+@font-face {
+  font-family: 'Roobert';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roobert Medium'), url('../fonts/Roobert-Medium.otf') format('opentype')
+}
+@font-face {
+  font-family: 'Roobert';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roobert Italic'), url('../fonts/Roobert-MediumItalic.otf') format('opentype')
 }
 @font-face {
   font-family: 'Roobert';
@@ -55,7 +67,6 @@
 }
 
 body {
-  font-family: 'Roobert', serif;
   background-color: #26273A;
 }
 
@@ -79,7 +90,7 @@ body {
 }
 
 .remark-slide-content h1 {
-  font-family: 'Roobert', sans-serif;
+  font-family: 'Reckless', sans-serif;
   font-weight: normal;
   font-size: 1.8em;
   color: #6DC4E2;
@@ -96,7 +107,7 @@ body {
   margin: 0.1em 0;
 }
 .remark-slide-content h2, h3 {
-  font-family: 'Reckless', sans-serif;
+  font-family: 'Roobert', sans-serif;
   font-size: 1.25em;
   color: #ADA9A1;
 }
@@ -111,7 +122,7 @@ body {
   font-family: 'Ubuntu Mono';
 }
 .remark-slide-number {
-  font-family: 'Reckless';
+  font-family: 'Roobert';
   font-size: 0.4em;
   color: #fff;
   width: calc(100% - 40px);
@@ -154,6 +165,7 @@ body {
   height: 25px;
 }
 .title {
+  font-family: 'Reckless';
   background-size: cover;
   background-color: #26273A;
   color: #fff;
@@ -162,7 +174,7 @@ body {
   margin-bottom: 0.3em;
 }
 .title img {
-  width: 50%;
+  width: 40%;
 }
 .title.remark-slide-content h1,
 .title.remark-slide-content h2,
@@ -171,12 +183,17 @@ body {
 }
 .title.remark-slide-content h1 {
   font-size: 2.2em;
+  font-weight: bold;
 }
 .title.remark-slide-content h2 {
-  font-family: 'Reckless';
+  font-family: 'Roobert';
   font-size: 0.9em;
-  text-transform: uppercase;
 }
+.title.remark-slide-content h3 {
+  font-family: 'Roobert';
+  font-size: 0.9em;
+}
+
 .title .remark-slide-number {
   visibility: hidden;
 }
@@ -223,7 +240,7 @@ h2.number {
   margin-top: 2em;
   width: 100%;
   text-align: center;
-  font-family: 'Reckless';
+  font-family: 'Roobert';
   font-size: 2.5em;
   color: #26273A;
 }
